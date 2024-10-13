@@ -17,10 +17,11 @@
         }
     </style>
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg sticky-top" style="background-color: var(--bs-primary);" data-bs-theme="dark">
-            <div class="container-fluid">
+          <div class="container-fluid">
                 <a class="navbar-brand d-flex align-items-center" href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 24 24" width="24" height="24">
                         <defs>
@@ -61,13 +62,21 @@
                     </ul>
                 </div>
             </div>
+            <style>
+              @media (min-width: 769px) {
+                  .container-fluid {
+                      padding-left: 14vh;
+                      padding-right: 14vh;
+                  }
+              }
+          </style>
         </nav>
     </header>
     <main>
   
 
       <section id="hero" style="background-image: url('images/hero-bg-img.png'); background-size: cover; background-position: center; height: 100vh; display: flex; align-items: flex-start;">
-        <div class="container" style="color: white; padding-top: 13vh;">
+        <div class="container" style="color: white; padding-top: 12vh;">
             <div class="text-center" style="max-width: 880px; margin: auto;">
                 <h1 class="hero-title" style="font-family: 'Playfair Display', serif; color: #18442C;">Healthy, Delicious Meals Delivered to Your Door – Ready in Minutes!</h1>
                 <p class="hero-description" style="color: black; margin: 20px auto;">With Daily Dish, you can enjoy chef-crafted, wholesome meals without the hassle of meal prep, grocery shopping, or cleanup.</p>
@@ -133,7 +142,7 @@
                   </div>
               </div>
           </div>
-          <button type="button" class="btn btn-dark mt-4">Pick Your Plan</button>
+          <button type="button" class="btn btn-dark mt-4" style="background-color: #18442C;">Pick Your Plan</button>
       </div>
       <style>
           @media (max-width: 768px) {
@@ -157,15 +166,6 @@
           }
       </style>
   </section>
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
   
       
